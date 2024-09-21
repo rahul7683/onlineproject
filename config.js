@@ -1,0 +1,46 @@
+import dotenv from 'dotenv';
+dotenv.config();
+export const APIKey=process.env.API_KEY
+export const URL=process.env.URL
+export const MONGODB_URI=process.env.MONGODB_URI
+export const AWS_ACCESS_KEY_ID=process.env.AWS_ACCESS_KEY_ID
+export const AWS_SECRET_KEY=process.env.AWS_SECRET_KEY
+export const AWS_REGION=process.env.AWS_REGION
+export const PINGEN_CLIENT_ID=process.env.PINGEN_CLIENT_ID
+export const PINGEN_CLIENT_SECRET=process.env.PINGEN_CLIENT_SECRET
+export const PINGEN_ORGANIZATION_ID=process.env.PINGEN_ORGANIZATION_ID
+export const ABBOSTOP_API_KEY=process.env.ABBOSTOP_API_KEY
+export const ABBOSTOP_ADMIN_USERNAME=process.env.ABBOSTOP_ADMIN_USERNAME
+export const ABBOSTOP_ADMIN_PWD=process.env.ABBOSTOP_ADMIN_PWD
+export const ENV=process.env.ENV
+export const AWS_ACCESS_KEY_SES=process.env.AWS_ACCESS_KEY_SES
+export const AWS_SECRET_KEY_SES=process.env.AWS_SECRET_KEY_SES
+export const MOLLIE_API_KEY=process.env.MOLLIE_API_KEY
+export const LETTER_DOWNLOAD_URL=process.env.LETTER_DOWNLOAD_URL
+export const AUTO_SEND_LETTER=process.env.AUTO_SEND_LETTER
+export const TEST_MONGODB_URI=process.env.TEST_MONGODB_URI
+export const POSTBODE_MAILBOX_ID=process.env.POSTBODE_MAILBOX_ID
+export const TO_EMAILS=process.env.TO_EMAILS
+export const MOLLIE_WEBHOOK_URL=process.env.MOLLIE_WEBHOOK_URL
+export const MOLLIE_PAY_LINK_WEBHOOK=process.env.MOLLIE_PAY_LINK_WEBHOOK
+export const G_RECAPTCHA_SECRET=process.env.G_RECAPTCHA_SECRET
+export const G_RECAPTCHA_SECRET_V2=process.env.G_RECAPTCHA_SECRET_V2
+export const JWT_SECRET=process.env.JWT_SECRET
+export const TOKEN_HEADER_KEY=process.env.TOKEN_HEADER_KEY
+export const G_ADDRESS_VALIDATOR=process.env.G_ADDRESS_VALIDATOR
+export const STRIPE_SECRET=process.env.STRIPE_SECRET
+export const MOLLIE_WEBHOOK_URL_UNSUBBY=process.env.MOLLIE_WEBHOOK_URL_UNSUBBY
+export const MOLLIE_API_KEY_UNSUBBY=process.env.MOLLIE_API_KEY_UNSUBBY
+export const MY_SENDING_BOX_KEY=process.env.MY_SENDING_BOX_KEY
+export const MOLLIE_WEBHOOK_URL_PAYMENT_METHOD=process.env.MOLLIE_WEBHOOK_URL_PAYMENT_METHOD
+export const POSTGRID_KEY=process.env.POSTGRID_KEY
+export const UNSUBBY_WEBSITE=process.env.UNSUBBY_WEBSITE
+export const ABBOSTOP_WEBSITE=process.env.ABBOSTOP_WEBSITE
+export const MOLLIE_WEBHOOK_ABBOSTOP_PAYMENT_METHOD=process.env.MOLLIE_WEBHOOK_ABBOSTOP_PAYMENT_METHOD
+export const MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION_PAYMENT=process.env.MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION_PAYMENT
+export const MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION=process.env.MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION
+export const MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION_PAYMENT_LINK=process.env.MOLLIE_WEBHOOK_UNSUBBY_SUBSCRIPTION_PAYMENT_LINK
+export const SERVER_TYPE=process.env.SERVER_TYPE
+
+
+
