@@ -115,3 +115,4 @@ export default class BlogPageController {
     };
 }
 
+//something like that
